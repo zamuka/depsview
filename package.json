@@ -1,0 +1,37 @@
+{
+  "name": "depsviewer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.3",
+    "cytoscape": "3.22.0",
+    "cytoscape-cola": "^2.5.1",
+    "cytoscape-cose-bilkent": "4.1.0",
+    "cytoscape-fcose": "git+https://github.com/iVis-at-Bilkent/cytoscape.js-fcose.git#unstable",
+    "lodash": "4.17.21",
+    "next": "12.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@types/cytoscape": "^3.19.5",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "@types/uuid": "^8.3.4",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.2.0",
+    "typescript": "4.7.4"
+  }
+}
