@@ -1,6 +1,5 @@
-import type { GetServerSideProps, NextPage } from 'next'
+import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import { ConfigProvider } from '../shared/store/ConfigContextProvider';
 import { MainPageContent } from '../shared/components/MainPageContent';
 interface HomeProps {

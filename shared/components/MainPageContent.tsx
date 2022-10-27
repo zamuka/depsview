@@ -42,16 +42,7 @@ export const MainPageContent = () => {
   const handleAction = (evt: any) => {
     switch (evt.type) {
       case 'select': {
-        // const node = packetsService.findElement(evt.details.nodeId);
-        // console.log(node);
-        // const branchName = 'FEATURE/UMBS-616-product-thumbnail-vb';
-        // console.log(`git checkout master && git pull && git checkout -b "${branchName}" &&
-        // np`)
-        // if (options.includes(evt.details.nodeId)) {
         setSelected(evt.details.nodeId);
-        // }
-        // const version = storage.getItem(`versions.${evt.details.nodeId}`) || '';
-        // setSelectedNodeVersion(version);
         break;
       }
       case 'layoutReady': {

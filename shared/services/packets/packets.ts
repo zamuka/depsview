@@ -215,11 +215,9 @@ class PacketsService {
       (node: DepNode) => node.dependencies.every(depName => !freeNodeIds.has(depName))
       :
       (node: DepNode) => {
-        console.log(node.data.id, node);
-
         return node.dependents.every(depName => {
           return usedNodeIds.has(depName) || !(depName in nodeMap);
-        }) && node.dependents.some(depName => usedNodeIds.has(depName));
+        }); // && node.dependents.some(depName => usedNodeIds.has(depName));
         // node.dependents.every(depName => usedNodeIds.has(depName));
       }
 
